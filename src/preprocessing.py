@@ -91,7 +91,7 @@ def preprocess_and_split(
 if __name__ == "__main__":
     # For quick testing
     X_train, X_test, y_train, y_test = preprocess_and_split(
-        filepath="../data/churn.csv"
+        filepath="C:/Users/shaik/churn-prediction/data/Telco_Cusomer_Churn.csv"
     )
 
     print("Preprocessing completed successfully.")

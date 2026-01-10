@@ -6,4 +6,10 @@ Key Insights from EDA:
 5.Long-term contracts significantly reduce churn
 
 
+Class Imbalance Handling:
+1.Identified class imbalance (~25% churn)
+2.Used class-weighted learning to prioritize churn recall
+3.Evaluated models using ROC-AUC and recall instead of accuracy
+4.Experimented with SMOTE for comparison
+
 

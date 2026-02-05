@@ -95,7 +95,7 @@ if __name__ == "__main__":
 
     # Get preprocessed train-test data
     X_train, X_test, y_train, y_test = preprocess_and_split(
-        filepath="../data/churn.csv"
+        filepath="../data/Telco_Cusomer_Churn.csv"
     )
 
     # -------------------------
